@@ -11,7 +11,7 @@ Now that travel to Mars is possible, people from all over the world want a ticke
 
 - Coordinates and city name for 20 launch site cities around the world (your choice) should be populated in a mysql database through a migration.
 
-- The backend should return the nearest city name and its distance from the user's current location ({:city => city_name, :distance => 300 miles})
+- The backend should return the nearest city name and its distance from the user's current location ({:city => city_name, :distance => number_of_miles})
 
 - Backend API framework: Sinatra (http://www.sinatrarb.com/)
 
