@@ -1,0 +1,96 @@
+html {
+    position: relative;
+    min-height: 100%;
+    height: 100%;
+}
+body {
+    margin-bottom: 0px;
+    margin-top:0px;
+    min-height: 100%;
+    height:100%;
+    background-color:#fff;
+    font-weight:400;
+    font-size:14px;
+    color: #333;
+}
+.full{
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+}
+.backgrounds_hold{
+    background-color: #b1a462;
+}
+.backgrounds_hold .background{
+    position:absolute;
+    -webkit-background-size: cover;
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+    width:100%;
+    background-color: #04545f;
+}
+.backgrounds_hold .clouds{
+    background: url("scene1_clouds.png")repeat-x left top fixed;
+    background-size:50%;
+}
+.backgrounds_hold .sun{
+    background: url("scene1_sun.png")no-repeat left top fixed;
+    background-size:50%;
+}
+.backgrounds_hold .forest{
+    background: url("scene1_forest.png")repeat-x right bottom fixed;
+    background-size:auto 100%;
+}
+.backgrounds_hold .forest_offset{
+    background: url("scene1_forest.png")repeat-x left bottom fixed;
+    background-size:auto 100%;
+}
+.backgrounds_hold .forest_small_offset{
+    visibility:hidden;
+}
+.backgrounds_hold .forest_small{
+    visibility:hidden;
+}
+.backgrounds_hold .forest_with_rocket{
+    background: url("scene1_forest_with_rocket.png")no-repeat right bottom fixed;
+    background-size:auto 100%;
+}
+.backgrounds_hold .city{
+    background: url("scene1_city_height.png")repeat-x left bottom fixed;
+    background-size:60%;
+}   
+.backgrounds_hold .city_offset{
+    background: url("scene1_city_height.png")repeat-x 200px bottom fixed;
+    background-size:55%;
+}  
+@media (max-width:900px) {
+    .backgrounds_hold .backgrounds{
+        height:60%;
+    }
+    .backgrounds_hold .forest_with_rocket{
+        background: url("scene1_forest_with_rocket.png")no-repeat right bottom;
+        background-size:auto 100%;
+    } 
+    .backgrounds_hold .forest_small{
+        background: url("scene1_forest.png")repeat-x left bottom;
+        background-size:auto 100%;
+        visibility:visible;
+    }
+    .backgrounds_hold .forest_small_offset{
+        background: url("scene1_forest.png")repeat-x right bottom;
+        background-size:auto 100%;
+        visibility:visible;
+    }
+    .backgrounds_hold .city{
+        background: url("scene1_city_height.png")repeat-x left bottom;
+        background-size:100%;
+    }
+    .backgrounds_hold .clouds{
+        background: url("scene1_clouds.png")repeat-x left top;
+        background-size:100%;
+    }
+}
