@@ -21,7 +21,8 @@ body {
     width:100%;
 }
 .backgrounds_hold{
-    background-color: #b1a462;
+    background: url("scene1_forest_pixel.png");
+    background-repeat:repeat;
 }
 .backgrounds_hold .background{
     position:absolute;
