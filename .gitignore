@@ -1,4 +1,24 @@
-*.DS_Store
+.DS_Store
 *.swp
 *.swo
+*.swm
+*.swn
+
+## Ember
+
+# compiled output
+mars-frontend/dist
+mars-frontend/tmp
+
+# dependencies
+mars-frontend/node_modules
+mars-frontend/bower_components
+
+# misc
+mars-frontend/.sass-cache
+mars-frontend/connect.lock
+mars-frontend/coverage/*
+mars-frontend/libpeerconnection.log
+mars-frontend/npm-debug.log*
+mars-frontend/testem.log
 
